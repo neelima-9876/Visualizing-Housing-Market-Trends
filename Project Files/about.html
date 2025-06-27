@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Housing Trends</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <nav>
+    <h2>Housing Trends</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li class="active"><a href="/about">About</a></li>
+      <li><a href="/dashboard">Dashboard</a></li>
+      <li><a href="/story">Story</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <div class="about-text">
+      <h2>Visualizing Housing Market Trends: An Analysis of Sale Prices and Features using Tableau
+    </h2>
+      <ul>
+        <li> The goal is to address challenges in understanding the factors that influence house prices and sales trends.</li>
+
+            
+         <li> By analysing comprehensive housing data, including the total sales by years since renovation, house age distribution by the number of bathrooms, bedrooms, and floors, and the impact of renovations on house age, the company aims to uncover key insights.</li>
+            
+
+          <li> Utilizing Tableau for this analysis, the objective is to visualize and interpret patterns in the housing market to inform strategic decisions, optimize pricing strategies, and enhance overall market competitiveness.</li>
+            
+        
+      </ul>
+    </div>
+    <img src="{{ url_for('static', filename='img/building.jpeg') }}" alt="Building Image">
+  </section>
+</body>
+</html>
